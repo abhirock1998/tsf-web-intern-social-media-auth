@@ -1,0 +1,40 @@
+.userDetail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.userDetail__content {
+  display: flex;
+  align-items: center;
+}
+.userDetail__content img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+.userDetail__contentProfile h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.userDetail a {
+  text-decoration: none;
+}
+.userDetail button {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  text-transform: inherit;
+  margin-top: 20px;
+  background: linear-gradient(rgb(156, 119, 255), rgb(130, 80, 255));
+  border: none;
+  box-shadow: 0px 4px 8px -4px #000;
+  border-radius: 5px;
+}
+.userDetail__contentProfile small {
+  font-size: 20px;
+}

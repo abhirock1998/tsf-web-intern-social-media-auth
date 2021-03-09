@@ -1,0 +1,33 @@
+.tsf__button {
+  display: flex;
+
+  margin: 50px 0px;
+  width: 300px;
+  background-color: linear-gradient(rgb(156, 119, 255), rgb(130, 80, 255));
+  box-shadow: rgb(14 10 31 / 25%) 0px 16px 49px;
+  border-radius: 25px;
+  transition: transform 200ms ease 0s;
+  cursor: pointer;
+}
+.tsf__button img {
+  height: 50px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.tsf__button button {
+  background-color: transparent;
+  outline: none;
+  flex: 1;
+  align-items: center;
+  -webkit-box-pack: center;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Varela Round", sans-serif;
+  text-transform: inherit;
+  color: var(--tsf-font);
+}

@@ -1,0 +1,21 @@
+.header {
+  /* font-family: "Varela Round", sans-serif; */
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 80px;
+  align-items: center;
+  color: var(--tsf-font);
+}
+.header__left {
+  font-size: 35px;
+}
+.header__right {
+  font-size: 17px;
+}
+.header__left a,
+.header__right a {
+  text-decoration: none;
+  color: #fff;
+}
