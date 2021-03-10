@@ -13,6 +13,9 @@ function App() {
             <Center />
           </Route>
         </Switch>
+        <div className="app__dev">
+        Build with ❤️ by Abhishek
+        </div>
       </Router>
     </div>
   );
